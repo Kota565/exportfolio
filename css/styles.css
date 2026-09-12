@@ -11079,10 +11079,6 @@ header.masthead {
   padding: 8rem 0;
 }
 
-#skills {
-  padding: 8rem 0;
-}
-
 .skills-icons {
   display: flex;
   justify-content: center;
@@ -11098,12 +11094,13 @@ header.masthead {
 .skill-item i {
   font-size: 3rem;
   margin-bottom: 0.5rem;
-  color: var(--color-accent); /* ポップな青 */
+  color: var(--color-accent) !important;
 }
 
 .skill-item p {
   margin: 0;
   font-size: 1.2rem;
 }
+
 
 
