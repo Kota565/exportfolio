@@ -66,16 +66,39 @@
             <div class="container-fluid p-0">
                 <div class="row g-0">
                     <div class="col-lg-6 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
+                        <a class="portfolio-box" onclick="openModal('modal-p1')">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
                             <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
+                                <div class="project-category text-white-50">Action / Time Attack</div>
+                                <div class="project-name">MazeRun</div>
                             </div>
                         </a>
                     </div>
+                    <div id="modal-p1" class="modal">
+                        <div class="modal-contnt">
+                            <span class="close-btn" onclick="closeModal('modal-p1')">&times;</span>
+                            <div class="slider">
+                                <img src="assets/img/exportfolio/1.jpg" class="slide active">
+                                <img src="assets/img/exportfolio/2.jpg" class="slide">
+                                <img src="assets/img/exportfolio/3.jpg" class="slide">
+                            </div>
+                            <div class="slider-controls">
+                                <button class="prev-btn" onclick="prevSlide('modal-p1')">&#10094;</button>
+                                <button class="next-btn" onclick="nextSlide('modal-p1')">&#10095;</button>
+                            </div>
+                            <div class="modal-descliption">
+                                <h3>ゲームの詳細</h3>
+                                <p>あああああ</p>
+                                <h3>ゲームの詳細</h3>
+                                <p>あああああ</p>
+                                <h3>ゲームの詳細</h3>
+                                <p>あああああ</p>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div class="col-lg-6 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Project Name">
+                        <a class="portfolio-box" onclick="openModal('modal-p2')">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
@@ -83,6 +106,28 @@
                             </div>
                         </a>
                     </div>
+                    <div id="modal-p2" class="modal">
+                        <div class="modal-contnt">
+                            <span class="close-btn" onclick="closeModal('modal-p2')">&times;</span>
+                            <div class="slider">
+                                <img src="assets/img/exportfolio/4.jpg" class="slide active">
+                                <img src="assets/img/exportfolio/5.jpg" class="slide">
+                                <img src="assets/img/exportfolio/6.jpg" class="slide">
+                            </div>
+                            <div class="slider-controls">
+                                <button class="prev-btn" onclick="prevSlide('modal-p2')">&#10094;</button>
+                                <button class="next-btn" onclick="nextSlide('modal-p2')">&#10095;</button>
+                            </div>
+                            <div class="modal-descliption">
+                                <h3>ゲームの詳細</h3>
+                                <p>あああああ</p>
+                                <h3>ゲームの詳細</h3>
+                                <p>あああああ</p>
+                                <h3>ゲームの詳細</h3>
+                                <p>あああああ</p>
+                            </div>
+                        </div>
+                    </div>      
                 </div>
             </div>
         </div>
