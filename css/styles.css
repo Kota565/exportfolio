@@ -11049,19 +11049,25 @@ header.masthead {
 }
 
 :root{
-  --color-base-bg: #eef6ff;
-  --color-text-main: #0f2b46;
-  --color-text-sub: #1a1a2e;
-  --color-accent: #00aaff;
-  --color-accent-hover: #33cfff;
-  --color-highlight: #ff7f50;
+  --color-about-bg: #cfefff;
+  --color-about-btn: #ff5a1f;
+  --color-about-btn-hover: #e64a12;
 }
-.bg-accent {
-  background: var(--color-accent);
+.bg-about {
+  background: var(--color-about-bg);
+  color: var(--color-text-main);
 }
 
-.text-accent {
-  color: var(--color-accent);
+.btn-about {
+  background: var(--color-about-btn) !important;
+  border-color: var(--color-about-btn) !important;
+  color: white !important;
 }
+
+.btn-about:hover {
+  background: var(--color-about-btn-hover) !important;
+  border-color: var(--color-about-btn-hover) !important;
+}
+
 
 
