@@ -11043,6 +11043,10 @@ header.masthead h1, header.masthead .h1 {
   cursor: pointer;
 }
 
+header.masthead {
+  background-image: none
+}
+
 :root{
   --color-base-bg: #eef6ff;
   --color-text-main: #0f2b46;
