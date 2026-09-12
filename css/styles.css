@@ -11056,3 +11056,12 @@ header.masthead {
   --color-accent-hover: #33cfff;
   --color-highlight: #ff7f50;
 }
+.bg-accent {
+  background: var(--color-accent);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+
