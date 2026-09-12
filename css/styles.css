@@ -11089,7 +11089,7 @@ header.masthead {
 
 .skill-item {
   text-align: center;
-  color: var(--color-skill-text);
+  color: var(--color-skill-text) !important;
 }
 
 .skill-item i {
