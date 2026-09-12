@@ -11042,3 +11042,12 @@ header.masthead h1, header.masthead .h1 {
   color: #333;
   cursor: pointer;
 }
+
+:root{
+  --color-base-bg: #eef6ff;
+  --color-text-main: #0f2b46;
+  --color-text-sub: #1a1a2e;
+  --color-accent: #00aaff;
+  --color-accent-hover: #33cfff;
+  --color-highlight: #ff7f50;
+}
