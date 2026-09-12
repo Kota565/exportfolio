@@ -11069,5 +11069,10 @@ header.masthead {
   border-color: var(--color-about-btn-hover) !important;
 }
 
+#about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
 
 
