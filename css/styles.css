@@ -11045,6 +11045,7 @@ header.masthead h1, header.masthead .h1 {
 
 header.masthead {
   background-image: none
+  background-color: #0f2b46
 }
 
 :root{
