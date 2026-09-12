@@ -11052,6 +11052,7 @@ header.masthead {
   --color-about-bg: #0f2b46;
   --color-about-btn: #ff5a1f;
   --color-about-btn-hover: #e64a12;
+  --color-skill-text: #fff;
 }
 .bg-about {
   background: var(--color-about-bg);
@@ -11088,13 +11089,13 @@ header.masthead {
 
 .skill-item {
   text-align: center;
-  color: var(--color-text-main);
+  color: var(--color-skill-text);
 }
 
 .skill-item i {
   font-size: 3rem;
   margin-bottom: 0.5rem;
-  color: var(--color-accent) !important;
+  color: var(--color-skill-text) !important;
 }
 
 .skill-item p {
