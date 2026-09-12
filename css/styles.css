@@ -11078,6 +11078,11 @@ header.masthead {
 
 #skills {
   padding: 8rem 0;
+  .skill-item i,
+.skill-item p {
+  color: var(--color-skill-text) !important;
+}
+
 }
 
 .skills-icons {
